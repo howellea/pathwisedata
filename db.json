@@ -1,0 +1,191 @@
+{
+    "trips": [
+      {
+        "id": 1,
+        "name": "European Adventure",
+        "startdate": "2025-06-01",
+        "enddate": "2025-06-15"
+      },
+      {
+        "id": 2,
+        "name": "Asian Expedition",
+        "startdate": "2025-07-10",
+        "enddate": "2025-07-30"
+      },
+      {
+        "id": 3,
+        "name": "USA Road Trip",
+        "startdate": "2025-08-15",
+        "enddate": "2025-09-05"
+      },
+      {
+        "id": 4,
+        "name": "African Safari",
+        "startdate": "2025-09-20",
+        "enddate": "2025-10-10"
+      }
+    ],
+    "tripStops": [
+      {
+        "trip_id": 1,
+        "stop_name": "Paris",
+        "destination_id": 1,
+        "arrivaltime": "2025-06-02T10:00:00",
+        "departuretime": "2025-06-05T18:00:00"
+      },
+      {
+        "trip_id": 1,
+        "stop_name": "Rome",
+        "destination_id": 2,
+        "arrivaltime": "2025-06-06T12:00:00",
+        "departuretime": "2025-06-10T15:00:00"
+      },
+      {
+        "trip_id": 2,
+        "stop_name": "Tokyo",
+        "destination_id": 3,
+        "arrivaltime": "2025-07-11T09:00:00",
+        "departuretime": "2025-07-15T20:00:00"
+      },
+      {
+        "trip_id": 2,
+        "stop_name": "Bangkok",
+        "destination_id": 4,
+        "arrivaltime": "2025-07-16T10:30:00",
+        "departuretime": "2025-07-22T17:00:00"
+      },
+      {
+        "trip_id": 3,
+        "stop_name": "New York City",
+        "destination_id": 5,
+        "arrivaltime": "2025-08-16T08:00:00",
+        "departuretime": "2025-08-20T14:00:00"
+      },
+      {
+        "trip_id": 3,
+        "stop_name": "Los Angeles",
+        "destination_id": 6,
+        "arrivaltime": "2025-08-21T12:00:00",
+        "departuretime": "2025-08-26T19:00:00"
+      },
+      {
+        "trip_id": 4,
+        "stop_name": "Nairobi",
+        "destination_id": 7,
+        "arrivaltime": "2025-09-21T11:00:00",
+        "departuretime": "2025-09-25T16:00:00"
+      },
+      {
+        "trip_id": 4,
+        "stop_name": "Cape Town",
+        "destination_id": 8,
+        "arrivaltime": "2025-09-26T10:00:00",
+        "departuretime": "2025-10-05T20:00:00"
+      }
+    ],
+    "destinations": [
+      {
+        "id": 1,
+        "destination_name": "Eiffel Tower",
+        "type_id": 1,
+        "address1": "Champ de Mars",
+        "city": "Paris",
+        "state_province": "Île-de-France",
+        "postal_code": "75007",
+        "country": "France"
+      },
+      {
+        "id": 2,
+        "destination_name": "Colosseum",
+        "type_id": 2,
+        "address1": "Piazza del Colosseo",
+        "city": "Rome",
+        "state_province": "Lazio",
+        "postal_code": "00184",
+        "country": "Italy"
+      },
+      {
+        "id": 3,
+        "destination_name": "Shibuya Crossing",
+        "type_id": 3,
+        "address1": "Shibuya Station",
+        "city": "Tokyo",
+        "state_province": "Tokyo",
+        "postal_code": "150-0002",
+        "country": "Japan"
+      },
+      {
+        "id": 4,
+        "destination_name": "Grand Palace",
+        "type_id": 1,
+        "address1": "Na Phra Lan Rd",
+        "city": "Bangkok",
+        "state_province": "Bangkok",
+        "postal_code": "10200",
+        "country": "Thailand"
+      },
+      {
+        "id": 5,
+        "destination_name": "Statue of Liberty",
+        "type_id": 2,
+        "address1": "Liberty Island",
+        "city": "New York City",
+        "state_province": "New York",
+        "postal_code": "10004",
+        "country": "USA"
+      },
+      {
+        "id": 6,
+        "destination_name": "Hollywood Sign",
+        "type_id": 3,
+        "address1": "Mount Lee",
+        "city": "Los Angeles",
+        "state_province": "California",
+        "postal_code": "90068",
+        "country": "USA"
+      },
+      {
+        "id": 7,
+        "destination_name": "Maasai Mara",
+        "type_id": 4,
+        "address1": "Narok County",
+        "city": "Nairobi",
+        "state_province": "Nairobi",
+        "postal_code": "00100",
+        "country": "Kenya"
+      },
+      {
+        "id": 8,
+        "destination_name": "Table Mountain",
+        "type_id": 4,
+        "address1": "Table Mountain National Park",
+        "city": "Cape Town",
+        "state_province": "Western Cape",
+        "postal_code": "8001",
+        "country": "South Africa"
+      }
+    ],
+    "destinationTypes": [
+      {
+        "id": 1,
+        "type_name": "Historical Landmark",
+        "type_parent_id": null
+      },
+      {
+        "id": 2,
+        "type_name": "Cultural Site",
+        "type_parent_id": 1
+      },
+      {
+        "id": 3,
+        "type_name": "Urban Attraction",
+        "type_parent_id": null
+      },
+      {
+        "id": 4,
+        "type_name": "Natural Wonder",
+        "type_parent_id": null
+      }
+    ]
+  }
+  
